@@ -1,0 +1,245 @@
+{
+	"name": "One Dark Pro Mac",
+	"version": "1.0.0",
+	"description": "Visual Studio for Mac port of Adrian Wilczyński's One Dark Pro color theme",
+	"originator": "https://github.com/amroc-dev/one-dark-pro-mac",
+
+	"palette": [
+		{ "name": "odpm-white", "value": "#ABB2BF" },
+		{ "name": "odpm-selection", "value": "#39414D" },
+        { "name": "odpm-selection2", "value": "#2C313C" },
+		{ "name": "odpm-background", "value": "#25282E" },
+		{ "name": "odpm-comment", "value": "#5C6370" },
+		{ "name": "odpm-string", "value": "#97C379" },
+		{ "name": "odpm-constant", "value": "#D19A66" },
+		{ "name": "odpm-keyword", "value": "#C678DD" },
+		{ "name": "odpm-type", "value": "#E5C07B" },
+		{ "name": "odpm-invalid", "value": "#F8F8F0" },
+		{ "name": "odpm-invalidBackground", "value": "#F92672" },
+		{ "name": "odpm-blue", "value": "#61AFEF" },
+        { "name": "odpm-red", "value": "#E06C75" },
+        { "name": "odpm-other", "value": "#BCC5C5" }
+	],
+
+	"colors": [
+		{ "name": "Background(Read Only)", "color": "#252620" },
+
+		{ "name": "Search result background", "color": "odpm-selection2" },
+		{ "name": "Search result background (highlighted)", "color": "odpm-selection" },
+
+		{ "name": "Column Ruler", "color": "#393933" },
+
+		{ "name": "Fold Square", "color": "odpm-comment", "secondcolor": "odpm-background" },
+		{ "name": "Fold Cross", "color": "#8f8c7e", "secondcolor": "odpm-background" },
+
+		{ "name": "Indentation Guide", "color": "odpm-comment" },
+
+		{ "name": "Indicator Margin", "color": "odpm-background" },
+		{ "name": "Indicator Margin(Separator)", "color": "#333842" },
+
+		{ "name": "Tooltip Pager Top", "color": "#757575" },
+		{ "name": "Tooltip Pager Triangle", "color": "#ffffff" },
+		{ "name": "Tooltip Pager Text", "color": "#ffffff" },
+
+		{ "name": "Notification Border", "color": "#989892" },
+
+		{ "name": "Completion Window", "color": "odpm-background", "bordercolor": "#989892" },
+		{ "name": "Completion Tooltip Window", "color": "odpm-background", "bordercolor": "#989892" },
+		{ "name": "Completion Selection Bar Border", "color": "odpm-selection" },
+		{ "name": "Completion Selection Bar Border(Inactive)", "color": "odpm-background" },
+		{ "name": "Completion Selection Bar Background", "color": "odpm-selection", "secondcolor": "odpm-selection" },
+		{ "name": "Completion Selection Bar Background(Inactive)", "color": "odpm-background", "secondcolor": "odpm-background" },
+
+		{ "name": "Bookmarks", "color": "#FDD99B", "secondcolor": "#816647" },
+
+		{ "name": "Underline(Error)", "color": "#F53D35" },
+		{ "name": "Underline(Warning)", "color": "odpm-blue" },
+		{ "name": "Underline(Suggestion)", "color": "odpm-other" },
+		{ "name": "Underline(Hint)", "color": "odpm-other" },
+
+		{ "name": "Quick Diff(Dirty)", "color": "odpm-string" },
+		{ "name": "Quick Diff(Changed)", "color": "#A4E22E" },
+
+		{ "name": "Brace Matching(Rectangle)", "color": "odpm-selection", "secondcolor": "#517295" },
+		{ "name": "Usages(Rectangle)", "color": "odpm-selection", "secondcolor": "#527F99", "bordercolor": "#527F99" },
+		{ "name": "Changing usages(Rectangle)", "color": "odpm-selection", "secondcolor": "#996E75", "bordercolor": "#996E75" },
+
+		{ "name": "Breakpoint Marker", "color": "#6f3535", "bordercolor": "#6f3535" },
+		{ "name": "Breakpoint Marker(Disabled)", "color": "#4d4d4d", "bordercolor": "#4d4d4d" },
+		{ "name": "Breakpoint Marker(Invalid)", "color": "#604343", "bordercolor": "#604343" },
+
+		{ "name": "Current Line Marker", "color": "odpm-selection2", "secondcolor": "#393933" },
+		{ "name": "Current Line Marker(Inactive)", "color": "odpm-selection2", "secondcolor": "#393933" },
+
+		{ "name": "Debugger Current Line Marker", "color": "#69684c", "bordercolor": "#69684c" },
+		{ "name": "Debugger Stack Line Marker", "color": "#618336", "bordercolor": "#618336" },
+
+		{ "name": "Primary Link", "color": "#4f4a81", "secondcolor": "#4f4a81" },
+		{ "name": "Primary Link(Highlighted)", "color": "#4147b3", "secondcolor": "#4147b3" },
+		{ "name": "Secondary Link", "color": "#262228", "secondcolor": "#262228" },
+		{ "name": "Secondary Link(Highlighted)", "color": "#4e4552", "secondcolor": "#4e4552" },
+
+		{ "name": "Message Bubble Error Marker", "color": "#b28d37" },
+		{ "name": "Message Bubble Error Tag", "color": "#e3a6a1", "secondcolor": "black" },
+		{ "name": "Message Bubble Error Counter", "color": "black", "secondcolor": "#e3a6a1" },
+		{ "name": "Message Bubble Error IconMargin", "color": "#735c54", "bordercolor": "#805b4d" },
+		{ "name": "Message Bubble Error Line", "color": "#7b645c" },
+		{ "name": "Message Bubble Error Tooltip", "color": "#e3a6a1" },
+
+		{ "name": "Message Bubble Warning Tag", "color": "#efe89d", "secondcolor": "black" },
+		{ "name": "Message Bubble Warning Counter", "color": "black", "secondcolor": "#efe89d" },
+		{ "name": "Message Bubble Warning IconMargin", "color": "#777553", "bordercolor": "#948e51" },
+		{ "name": "Message Bubble Warning Line", "color": "#807e5c" },
+		{ "name": "Message Bubble Warning Tooltip", "color": "#efe89d" },
+
+		{ "name": "Link Color", "color": "odpm-blue" },
+		{ "name": "Link Color(Active)", "color": "odpm-blue" }
+	],
+
+	"text": [
+		{ "name": "Plain Text", "fore": "odpm-white", "back": "odpm-background" },
+		{ "name": "Selected Text", "back": "odpm-selection" },
+		{ "name": "Selected Text(Inactive)", "back": "odpm-selection" },
+
+		{ "name": "Collapsed Text", "fore": "odpm-comment", "back": "odpm-background" },
+
+		{ "name": "Line Numbers", "fore": "#636D83", "back": "odpm-background" },
+
+		{ "name": "Punctuation", "fore": "odpm-white" },
+		{ "name": "Punctuation(Brackets)", "fore": "odpm-white" },
+
+		{ "name": "Comment(Line)", "fore": "odpm-comment" },
+		{ "name": "Comment(Block)", "fore": "odpm-comment" },
+		{ "name": "Comment(Doc)", "fore": "odpm-comment" },
+		{ "name": "Comment(DocTag)", "fore": "odpm-comment" },
+		{ "name": "Comment Tag", "fore": "#ff0dff" },
+
+		{ "name": "Excluded Code", "fore": "odpm-comment" },
+
+		{ "name": "String", "fore": "odpm-string" },
+		{ "name": "String(Escape)", "fore": "#odpm-blue" },
+		{ "name": "String(C# @ Verbatim)", "fore": "odpm-string" },
+		{ "name": "String(Regex Set Constructs)", "fore": "odpm-other" },
+		{ "name": "String(Regex Character Class)", "fore": "odpm-blue" },
+		{ "name": "String(Regex Grouping Constructs)", "fore": "odpm-type" },
+		{ "name": "String(Regex Escape Character)", "fore": "odpm-type" },
+		{ "name": "String(Regex Alt Escape Character)", "fore": "odpm-type" },
+
+		{ "name": "Number", "fore": "odpm-constant" },
+
+		{ "name": "Preprocessor", "fore": "odpm-keyword" },
+		{ "name": "Preprocessor(Region Name)", "fore": "odpm-keyword" },
+
+		{ "name": "Xml Text", "fore": "odpm-white" },
+		{ "name": "Xml Delimiter", "fore": "odpm-white" },
+		{ "name": "Xml Name", "fore": "odpm-keyword" },
+		{ "name": "Xml Attribute", "fore": "odpm-white" },
+		{ "name": "Xml Attribute Quotes", "fore": "odpm-string" },
+		{ "name": "Xml Attribute Value", "fore": "odpm-string" },
+		{ "name": "Xml Comment", "fore": "odpm-comment" },
+		{ "name": "Xml CData Section", "fore": "odpm-white" },
+
+		{ "name": "Html Attribute Name", "fore": "odpm-white" },
+		{ "name": "Html Attribute Value", "fore": "odpm-string" },
+		{ "name": "Html Comment", "fore": "odpm-comment" },
+		{ "name": "Html Element Name", "fore": "odpm-keyword" },
+		{ "name": "Html Entity", "fore": "odpm-string" },
+		{ "name": "Html Operator", "fore": "odpm-keyword" },
+		{ "name": "Html Server-Side Script", "fore": "odpm-white", "back": "#373832" },
+		{ "name": "Html Tag Delimiter", "fore": "odpm-white" },
+		{ "name": "Razor Code", "fore": "odpm-white", "back": "#373832" },
+
+		{ "name": "Tooltip Text", "fore": "#d1d1cd", "back": "#525759" },
+		{ "name": "Notification Text", "fore": "odpm-white", "back": "#525759" },
+
+		{ "name": "Completion Text", "fore": "odpm-white" },
+		{ "name": "Completion Matching Substring", "fore": "odpm-keyword" },
+
+		{ "name": "Completion Selected Text", "fore": "odpm-white" },
+		{ "name": "Completion Selected Matching Substring", "fore": "odpm-keyword" },
+
+		{ "name": "Completion Selected Text(Inactive)", "fore": "odpm-white" },
+		{ "name": "Completion Selected Matching Substring(Inactive)", "fore": "odpm-keyword" },
+
+		{ "name": "Keyword(Access)", "fore": "odpm-constant" },
+		{ "name": "Keyword(Type)", "fore": "odpm-keyword" },
+		{ "name": "Keyword(Operator)", "fore": "odpm-white" },
+		{ "name": "Keyword(Selection)", "fore": "odpm-keyword" },
+		{ "name": "Keyword(Iteration)", "fore": "odpm-keyword" },
+		{ "name": "Keyword(Jump)", "fore": "odpm-keyword" },
+		{ "name": "Keyword(Context)", "fore": "odpm-keyword" },
+		{ "name": "Keyword(Exception)", "fore": "odpm-keyword" },
+		{ "name": "Keyword(Modifiers)", "fore": "odpm-keyword" },
+		{ "name": "Keyword(Constants)", "fore": "odpm-constant" },
+		{ "name": "Keyword(Void)", "fore": "odpm-keyword" },
+		{ "name": "Keyword(Namespace)", "fore": "odpm-type" },
+		{ "name": "Keyword(Property)", "fore": "odpm-keyword" },
+		{ "name": "Keyword(Declaration)", "fore": "odpm-keyword" },
+		{ "name": "Keyword(Parameter)", "fore": "odpm-red" },
+		{ "name": "Keyword(Operator Declaration)", "fore": "odpm-white" },
+		{ "name": "Keyword(Other)", "fore": "odpm-keyword" },
+
+		{ "name": "User Types", "fore": "odpm-type" },
+		{ "name": "User Types(Enums)", "fore": "odpm-type" },
+		{ "name": "User Types(Interfaces)", "fore": "odpm-type" },
+		{ "name": "User Types(Delegates)", "fore": "odpm-type" },
+		{ "name": "User Types(Value types)", "fore": "odpm-type" },
+		{ "name": "User Types(Type parameters)", "fore": "odpm-type" },
+		{ "name": "User Types(Mutable)", "fore": "#odpm-type" },
+
+		{ "name": "User Field Usage", "fore": "odpm-white" },
+		{ "name": "User Field Declaration", "fore": "odpm-white" },
+
+		{ "name": "User Property Usage", "fore": "odpm-white" },
+		{ "name": "User Property Declaration", "fore": "odpm-white" },
+
+		{ "name": "User Event Usage", "fore": "#FFAE81" },
+		{ "name": "User Event Declaration", "fore": "#FFAE81" },
+
+		{ "name": "User Method Usage", "fore": "odpm-blue" },
+		{ "name": "User Method Declaration", "fore": "odpm-blue" },
+
+		{ "name": "User Parameter Usage", "fore": "odpm-red" },
+		{ "name": "User Parameter Declaration", "fore": "odpm-red" },
+
+		{ "name": "User Variable Usage", "fore": "odpm-red" },
+		{ "name": "User Variable Declaration", "fore": "odpm-red" },
+
+		{ "name": "Syntax Error", "fore": "odpm-invalid", "back": "odpm-invalidBackground" },
+
+		{ "name": "String Format Items", "fore": "odpm-white" },
+
+		{ "name": "Breakpoint Text", "fore": "white", "back": "#6f3535" },
+
+		{ "name": "Debugger Current Statement", "fore": "white", "back": "#69684c" },
+		{ "name": "Debugger Stack Line", "fore": "white", "back": "#5c6b4d" },
+
+		{ "name": "Diff Line(Added)", "fore": "#008A8B" },
+		{ "name": "Diff Line(Removed)", "fore": "line-removed" },
+		{ "name": "Diff Line(Changed)", "fore": "line-changed" },
+		{ "name": "Diff Header", "fore": "#008000", "weight": "bold" },
+		{ "name": "Diff Header(Separator)", "fore": "#0000FF", "weight": "bold" },
+		{ "name": "Diff Header(Old)", "fore": "#008000", "weight": "bold" },
+		{ "name": "Diff Header(New)", "fore": "#008000", "weight": "bold" },
+		{ "name": "Diff Location", "fore": "#FB8B00", "weight": "bold" },
+
+		{ "name": "Preview Diff Removed Line", "fore": "#5c2c2c", "back": "#dcb4b4" },
+		{ "name": "Preview Diff Added Line", "fore": "#235423", "back": "#a4d9a4" },
+
+		{ "name": "Css Comment", "fore": "odpm-comment" },
+		{ "name": "Css Property Name", "fore": "odpm-white" },
+		{ "name": "Css Property Value", "fore": "odpm-string" },
+		{ "name": "Css Selector", "fore": "odpm-comment" },
+		{ "name": "Css Keyword", "fore": "odpm-keyword" },
+
+		{ "name": "Script Comment", "fore": "odpm-comment" },
+		{ "name": "Script Keyword", "fore": "odpm-keyword" },
+		{ "name": "Script Number", "fore": "odpm-constant" },
+		{ "name": "Script String", "fore": "odpm-string" },
+
+        { "name": "extension method name", "fore": "odpm-blue" },
+        { "name": "keyword - control", "fore": "odpm-keyword" },
+        { "name": "operator - overloaded", "fore": "odpm-keyword" }
+
+	]
+}
