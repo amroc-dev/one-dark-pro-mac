@@ -5,18 +5,18 @@
 	"originator": "https://github.com/amroc-dev/one-dark-pro-mac",
 
 	"palette": [
-		{ "name": "odpm-white", "value": "#ABB2BF" },
-		{ "name": "odpm-selection", "value": "#39414D" },
+        { "name": "odpm-white", "value": "#ABB2BF" },
+        { "name": "odpm-selection", "value": "#39414D" },
         { "name": "odpm-selection2", "value": "#2C313C" },
-		{ "name": "odpm-background", "value": "#25282E" },
-		{ "name": "odpm-comment", "value": "#5C6370" },
-		{ "name": "odpm-string", "value": "#97C379" },
-		{ "name": "odpm-constant", "value": "#D19A66" },
-		{ "name": "odpm-keyword", "value": "#C678DD" },
-		{ "name": "odpm-type", "value": "#E5C07B" },
-		{ "name": "odpm-invalid", "value": "#F8F8F0" },
-		{ "name": "odpm-invalidBackground", "value": "#F92672" },
-		{ "name": "odpm-blue", "value": "#61AFEF" },
+        { "name": "odpm-background", "value": "#25282E" },
+        { "name": "odpm-comment", "value": "#5C6370" },
+        { "name": "odpm-string", "value": "#97C379" },
+        { "name": "odpm-constant", "value": "#D19A66" },
+        { "name": "odpm-keyword", "value": "#C678DD" },
+        { "name": "odpm-type", "value": "#E5C07B" },
+        { "name": "odpm-invalid", "value": "#F8F8F0" },
+        { "name": "odpm-invalidBackground", "value": "#F92672" },
+        { "name": "odpm-blue", "value": "#61AFEF" },
         { "name": "odpm-red", "value": "#E06C75" },
         { "name": "odpm-other", "value": "#BCC5C5" }
 	],
@@ -240,6 +240,5 @@
         { "name": "extension method name", "fore": "odpm-blue" },
         { "name": "keyword - control", "fore": "odpm-keyword" },
         { "name": "operator - overloaded", "fore": "odpm-keyword" }
-
 	]
 }
