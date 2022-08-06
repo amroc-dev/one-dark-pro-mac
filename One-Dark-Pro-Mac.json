@@ -239,6 +239,6 @@
 
         { "name": "extension method name", "fore": "odpm-blue" },
         { "name": "keyword - control", "fore": "odpm-keyword" },
-        { "name": "operator - overloaded", "fore": "odpm-keyword" }
+        { "name": "operator - overloaded", "fore": "odpm-white" }
 	]
 }
